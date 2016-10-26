@@ -1,16 +1,16 @@
 package com.wjh.singleton;
 /**
- * ¶öººÄ£Ê½£ºÔÚÀà¼ÓÔØÊ±¾ÍÍê³ÉÁË³õÊ¼»¯£¬ËùÒÔÀà¼ÓÔØ½ÏÂı£¬µ«»ñÈ¡¶ÔÏóµÄËÙ¶È¿ì
+ * é¥¿æ±‰æ¨¡å¼ï¼šåœ¨ç±»åŠ è½½æ—¶å°±å®Œæˆäº†åˆå§‹åŒ–ï¼Œæ‰€ä»¥ç±»åŠ è½½è¾ƒæ…¢ï¼Œä½†è·å–å¯¹è±¡çš„é€Ÿåº¦å¿«
  * @author WJH
- *
+ * æµ‹è¯•Githubçš„pullåŠŸèƒ½
  */
 public class HungrySingleton {
 
 	private HungrySingleton(){}
 	private static HungrySingleton singleton=new HungrySingleton();
 	/**
-	 * ¾²Ì¬£¬Í¬²½£¬¹«¿ª·ÃÎÊµã
-	 * @return HungrySingletonÊµÀı¶ÔÏó
+	 * é™æ€ï¼ŒåŒæ­¥ï¼Œå…¬å¼€è®¿é—®ç‚¹
+	 * @return HungrySingletonå®ä¾‹å¯¹è±¡
 	 */
 	public static HungrySingleton getSingleton(){
 		return singleton;
